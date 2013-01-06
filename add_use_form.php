@@ -2,7 +2,9 @@
 
 <script>
   $(function(){
-    $('#dp3').datepicker();         
+
+    $('#dp3').datepicker();
+            
   });
 </script>
 
@@ -27,7 +29,7 @@
     <label class="control-label" for="inputText">วันที่เริ่มใช้งาน</label>
     <div class="controls">
       <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
-        <input type="text" value="12-02-2012" readonly>
+        <input class="span2" size="16" type="text" value="12-02-2012" readonly>
         <span class="add-on"><i class="icon-th"></i></span>
       </div>
     </div>
