@@ -10,5 +10,10 @@
     <!-- Le styles -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/datepicker/css/datepicker.css" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="bootstrap/datepicker/js/bootstrap-datepicker.js"></script>
+    
   </head>
   <body>
