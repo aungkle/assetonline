@@ -1,6 +1,6 @@
-<div class="container">
-  <form class="navbar-search pull-left">
-    <h2 class="form-signin-heading">Please sign in</h2>
+  <h2 class="form-signin-heading">Please sign in</h2>
+  <br />
+  <form class="form-horizontal">
     <div class="control-group">
       <label class="control-label" for="inputEmail">Email</label>
       <div class="controls">
@@ -19,4 +19,3 @@
       </div>
     </div>
   </form>
-</div> <!-- /container -->

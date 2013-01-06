@@ -12,16 +12,16 @@
   }
   #content {
     padding-top: 300px;
-    padding-left: 250px;
+    padding-left: 100px;
     position: absolute;
   }
   #background img { 
-    max-width: 100%; /* or any other value */
+    max-width: 54%; /* or any other value */
     height: auto;
   }
   .well {
-    height: 280px;
-    width: 220px;
+    height: 250px;
+    width: 500px;
   }
 </style>
 
@@ -35,4 +35,4 @@
       <?php include './login_form.php'; ?>
     </div>
   </div>
-  <?php include("./_footer.php"); ?>
+<?php include("./_footer.php"); ?>
