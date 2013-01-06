@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>OCN Asset Online</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,6 +14,3 @@
     <link href="bootstrap/datepicker/css/datepicker.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="bootstrap/datepicker/js/bootstrap-datepicker.js"></script>
-    
-  </head>
-  <body>

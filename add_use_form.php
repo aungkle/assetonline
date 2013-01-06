@@ -1,13 +1,5 @@
 <?php include("./_header.php"); ?>
 
-<script>
-  $(function(){
-    
-    $('#dp3').datepicker();
-    
-  });
-</script>
-
 <form class="form-horizontal">
   <div class="control-group">
     <label class="control-label" for="inputText">สถานที่ใช้งาน</label>
@@ -58,5 +50,13 @@
     </div>
   </div>
 </form>
+
+<script>
+  $(function(){
+    
+    $('#dp3').datepicker();
+    
+  });
+</script>
 
 <?php include("./_footer.php"); ?>
