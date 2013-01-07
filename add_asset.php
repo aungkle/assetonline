@@ -45,7 +45,7 @@ include './_header.php';
         <div class="well sidebar-nav">
           <ul class="nav nav-list">
             <li class="nav-header">MENU</li>
-            <li><a href="./add_asset.php">เพิ่มครุภัณฑ์ใหม่</a></li>
+            <li class="active"><a href="./add_asset.php">เพิ่มครุภัณฑ์ใหม่</a></li>
             <li><a href="./add_place.php">จัดการสถานที่ใช้</a></li>
             <li><a href="./add_catalog.php">จัดการประเภทครุภัณฑ์</a></li>
             <li><a href="./add_user.php">จัดการผู้ใช้</a></li>
@@ -53,17 +53,22 @@ include './_header.php';
         </div><!--/.well -->
       </div><!--/span-->
       <div class="span9">
-        
-          <form class="form-search">
-            <input type="text" class="search-query" placeholder="Search">
-            <select>
-              <option>เลือกค้นหา</option>
-              <option>หมายเลขครุภัณฑ์</option>
-              <option>รายการครุภัณฑ์</option>
-            </select>
-            <button type="submit" class="btn">ค้นหา</button>
-          </form>
-
+        <div class="tabbable tabs-left">
+          
+          <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li><a href="#profile" data-toggle="tab">Profile</a></li>
+            <li><a href="#messages" data-toggle="tab">Messages</a></li>
+            <li><a href="#settings" data-toggle="tab">Settings</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="home">HOME ...  Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. </div>
+            <div class="tab-pane fade in " id="profile">PROFILE ... Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+            <div class="tab-pane fade in " id="messages">MESSAGES ... Aliquip placeat salvia cillum iphone. </div> 
+            <div class="tab-pane fade in " id="settings">SETTING ... Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+          </div>
         </div>
+
       </div>
-      <?php include("./_footer.php"); ?>
+      
+  <?php include("./_footer.php"); ?>
